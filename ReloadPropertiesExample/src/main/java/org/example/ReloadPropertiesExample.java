@@ -13,7 +13,7 @@ public class ReloadPropertiesExample {
 
         // Schedule a timer task to check for changes every 5 seconds
         Timer timer = new Timer();
-        timer.schedule(new PropertiesReloadTask(), 0, 50000);
+        timer.schedule(new PropertiesReloadTask(), 0, 5000);
 
         // Do some work that uses the properties
         while (true) {
